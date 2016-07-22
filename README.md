@@ -12,7 +12,7 @@ These scripts should be placed in the same directory that holds the main coreNLP
 So I may have overdone it on the jar files I collected.  If you run into an error with the standard jar files given by the out-of-the-box coreNLP installation, I have run through my exact setup below.  I downloaded some jars externally and copied them into different files to make some things work.  It was a less than scientific process that got things to work at the cost of some (possibly a lot of) redundancy.
 
 
-All the jars are ignored and I lost track of the ones that were actually necessary at some point but I have the following in the corenlp_test folder:
+    All the jars are ignored and I lost track of the ones that were actually necessary at some point but I have the following in the corenlp_test folder:
         - EJML.jar
         - joda-time.jar
         - jollyday-0.4.7.jar
