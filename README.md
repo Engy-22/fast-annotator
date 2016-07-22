@@ -1,14 +1,14 @@
-## CoreNLP fast annotator and NER scripts
+# CoreNLP fast annotator and NER scripts
 
 These are a couple scripts that aid in annotating text data in TSV format for custom NER training and testing. The main function is to allow you to type in user dictionaries related to certain classes of words and plug them in on top of the basic NER engine, hopefully speeding up training for your custom NER classifier.
 
 
-# dependencies
+### dependencies
 You'll need Stanford's CoreNLP and all its dependencies (java, anything else).  In addition, pycorenlp is a python coreNLP wrapper (as you might have surmised) and should also be installed.  I also use ttab for a fairly small part of the proceedings, so you should either install that or just manually start the coreNLP server each time you want to work with it.  Pandas, re, and time are all python packages used here, easily installed via pip.
 
 These scripts should be placed in the same directory that holds the main coreNLP folder (where the first files are build.gradle, build.xml, etc.)
 
-# a few notes on jar files
+### a few notes on jar files
 So I may have overdone it on the jar files I collected.  If you run into an error with the standard jar files given by the out-of-the-box coreNLP installation, I have run through my exact setup below.  I downloaded some jars externally and copied them into different files to make some things work.  It was a less than scientific process that got things to work at the cost of some (possibly a lot of) redundancy.
 
 
