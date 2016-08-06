@@ -4,7 +4,7 @@ These are a couple scripts that aid in annotating text data in TSV format for cu
 
 
 ### dependencies
-You'll need Stanford's CoreNLP and all its dependencies (java, anything else).  In addition, pycorenlp is a python coreNLP wrapper (as you might have surmised) and should also be installed.  I also use ttab for a fairly small part of the proceedings, so you should either install that or just manually start the coreNLP server each time you want to work with it.  Pandas, re, and time are all python packages used here, easily installed via pip.
+You'll need Stanford's CoreNLP and all its dependencies (java, anything else).  In addition, pycorenlp is a python coreNLP wrapper (as you might have surmised) and should also be installed.  I also use ttab for a fairly small part of the proceedings, so you should either install that or just manually start the coreNLP server each time you want to work with it.
 
 These scripts should be placed in the same directory that holds the main coreNLP folder (where the first files are build.gradle, build.xml, etc.)
 
